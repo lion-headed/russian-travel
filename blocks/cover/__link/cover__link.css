@@ -1,7 +1,7 @@
 .cover__link {
   margin: 0 auto;
   padding: 0;
-  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
