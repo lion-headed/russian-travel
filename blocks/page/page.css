@@ -12,9 +12,3 @@
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
 }
-  
-@media screen and (max-width: 425px) {
-  .page {
-    padding: 16px 0 0 0;
-  }
-}

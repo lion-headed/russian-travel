@@ -1,11 +1,12 @@
 .place__paragraphs {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 @media screen  and (max-width: 768px) {
   .place__paragraphs {
-    width: 90%;
+    /* width: calc(100% - 28px); */
     justify-self: center;
   }
 }
