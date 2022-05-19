@@ -2,20 +2,27 @@
   margin: 0;
   padding: 0;
   max-width: 360px;
-  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
   text-align: center;
   align-self: center;
   z-index: 3;
 }
-  
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
   .cover__subtitle {
-    line-height: 16px;
+    font-size: calc(14px + 4*(100vw - 320px)/448);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
     font-size: 14px;
+    line-height: 114%;
+    white-space: pre-line;
+    width: fit-content;
     max-width: 288px;
   }
 }

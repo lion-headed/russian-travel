@@ -24,7 +24,7 @@
       width: calc(100% - 2*24px);
       grid-gap: 16px;
       padding: 0 12px;
-      margin-bottom: 88px;
+      margin-bottom: 0;
     }
 }
   
@@ -34,6 +34,6 @@
       width: 90%;
       gap: 12px;
       padding: 0 12px;
-      margin-bottom: 64px;
+      margin-bottom: 0;
     }
 }

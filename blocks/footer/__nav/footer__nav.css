@@ -7,10 +7,10 @@
   column-gap: 18px;
 }
   
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer__nav {
-      display: flex;
-      flex-direction: column;
-      row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
   }
 }

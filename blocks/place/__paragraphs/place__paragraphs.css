@@ -6,7 +6,13 @@
 
 @media screen  and (max-width: 768px) {
   .place__paragraphs {
-    /* width: calc(100% - 28px); */
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+    width: 90%;
     justify-self: center;
   }
 }

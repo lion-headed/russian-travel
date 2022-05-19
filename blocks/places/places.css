@@ -6,24 +6,34 @@
   width: calc(100% - 2*148px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 780px) and (max-width: 1024px) {
   .places {
-    width: calc(100% - 2*48px);
+    width: 90.63%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 767px) and (max-width:780px) {
   .places {
-    width: calc(100% - 2*24px);
+    width: 93.75%;
+    row-gap: 73px;
+    padding-bottom: 90px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .places {
+    width: 100%;
+    padding: 88px 0 90px;
     row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
-    margin: 64px auto;
-    width: 100%;
+    padding: 64px 0 66px;
     row-gap: 50px;
+    width: 100%;
   }
 }
 
